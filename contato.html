@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1>Contato</h1>
+    <p>Email: antonio.marcoalvarez2009@gmail.com</p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/marco-antonio-b6392b109/"
+        >linkedin.com/in/marco-antonio-b6392b109/</a
+      >
+    </p>
+    <br />
+    <h3>Entre em contato</h3>
+    <form
+      action="mailto:antonio.marcoalvarez2009@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Nome:</label>
+      <input type="text" name="seuNome" /><br />
+      <label>Seu e-mail:</label>
+      <input type="email" name="seuEmail" /><br />
+      <label>Assunto:</label>
+      <input type="text" name="assunto" /><br />
+      <textarea id="mensagemContato" name="suaMensagem" rows="8" cols="50">
+        Escreva aqui a sua mensagem.
+        </textarea
+      ><br />
+      <input type="submit" />
+    </form>
+    <!-- O atributo action indica qual o responsável por processar os dados do formulário. O atributo method indica qual o método utilizado para se enviar o formulário, no caso, ele irá direto para o servidor como uma parte integrante do corpo do formulário. -->
+  </body>
+</html>
